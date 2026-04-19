@@ -1,0 +1,35 @@
+{
+  "appId": "kr.daegyeong.app",
+  "appName": "대경선",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": false
+  },
+  "plugins": {
+    "StatusBar": {
+      "style": "Dark",
+      "backgroundColor": "#080C12",
+      "overlaysWebView": false
+    },
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#080C12",
+      "showSpinner": false,
+      "androidSpinnerStyle": "gone",
+      "iosSpinnerStyle": "gone",
+      "splashFullScreen": true,
+      "splashImmersive": true
+    },
+    "Haptics": {}
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "ios": {
+    "contentInset": "automatic",
+    "scrollEnabled": false
+  }
+}
